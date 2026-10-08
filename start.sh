@@ -1,6 +1,4 @@
 #!/bin/bash
 
-brew install lame
-cd callrec
-go build -o callrec .
-./callrec 
+./callrec -o my_sound.mp3 -bitrate 96 -mic=false 
+ 
